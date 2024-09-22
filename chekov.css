@@ -1,0 +1,33 @@
+table {
+    width: 100%;               
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Header styling */
+table th {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #d1e7dd;
+}
+
+/* Add extra margin around the table */
+table {
+    margin: 20px auto;
+}
